@@ -1,7 +1,10 @@
 .bundle
 db/*.sqlite3*
 log/*.log
+<<<<<<< HEAD
 *.log
+=======
+>>>>>>> d7976440d5f16fc3edcec9e53c087c613a6cc22c
 tmp/**/*
 tmp/*
 doc/api
@@ -9,3 +12,7 @@ doc/app
 *.swp
 *~
 .DS_Store
+<<<<<<< HEAD
+=======
+
+>>>>>>> d7976440d5f16fc3edcec9e53c087c613a6cc22c
