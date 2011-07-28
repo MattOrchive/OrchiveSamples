@@ -1,0 +1,8 @@
+#Post Database
+rails generate scaffold Post name:string title:string content:text user_location:string post_location:string accuracy:integer inaccuracy:integer date:date time:time
+
+#Comment Database
+rails generate scaffold Comment commenter:string body:text date:date time:time post:references
+
+#Tag Database
+rails generate scaffold Tag name:string post:references
